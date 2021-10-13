@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="865233cd-4f84-4c8a-997c-3a7115512214" ItemType="ActUIElement" CreatedBy="ioan.solovastru" Created="202109290655" GingerVersion="3.9.0.0" Version="1" LastUpdateBy="ioan.solovastru" LastUpdate="202109290655" />
+<ActUIElement Active="True" Description="Expand card details" Guid="865233cd-4f84-4c8a-997c-3a7115512214" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ae35cc62-88cd-495e-a447-17b7699c71ad" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="2cbc1879-de41-47de-983e-5d53582a7109" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="3321d363-0ff5-462b-9dee-b49bc3d9fd26" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[8]/button[1]/img[1]" />
+<ActInputValue Guid="3f5fb638-51b5-4167-886c-7a5036648dd0" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="ea53de0f-6716-4730-802b-5b082aa606c5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="32894252-7f25-4d12-bb67-f172e3d0344d" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="64e98e07-8282-4dd6-8280-9c6068a5d01a" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1b664c07-b205-4d8c-a2ba-70960cd96cf5" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ed75c599-1bff-43c0-8648-7fca9dcc5c76" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement></GingerRepositoryItem>

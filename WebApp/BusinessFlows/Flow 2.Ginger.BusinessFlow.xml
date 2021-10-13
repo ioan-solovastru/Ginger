@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e15d1b23-5d15-4c85-bad5-db8b56a498fd" ItemType="BusinessFlow" CreatedBy="ioan.solovastru" Created="202110110733" GingerVersion="3.9.0.0" Version="3" LastUpdateBy="ioan.solovastru" LastUpdate="202110110802" />
+<BusinessFlow Elapsed="27356" Guid="e15d1b23-5d15-4c85-bad5-db8b56a498fd" Name="Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="caa0c568-0bcc-43e4-b32d-c4f35f5ddd28" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Reimbursement">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="24895ef1-bb57-426a-98fe-d3b6710537e2" ImplicitWait="60" ParentGuid="f10aed0d-6320-45e4-88b3-7d48e1270320" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a1dc3b14-7b77-4204-99a3-cbda83518cd0" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="dd10141e-9f57-412f-8920-12702f84cbaa" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://aral-reimbursement-qa.trafineo.com/" />
+<ActInputValue Guid="46300fbb-07f1-44b5-8128-3f1645cb2821" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="14df1d49-6409-430c-81f0-2411523e68ad" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="3fe7e0fb-1d19-4c84-a7de-8325054b2500" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="eb77873d-1668-494c-b701-41159f015ebd" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="66bf0a61-6f01-48bb-86c2-9f38af01f8f5" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="NotExist - username" Guid="08517b76-ca57-478e-80e2-18665b85409a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="778f87a2-1a0c-4d94-86e1-d5bfd5c14bfe" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetValue" />
+<ActInputValue Guid="b816d039-8266-456b-83c9-981ac63dce78" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="1b6bc1c5-4222-422d-93fa-5c338ccde05c" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="46108773-dead-4f79-9ac5-3b8073c6a688_d4bdcf3a-af8f-4adc-a2c3-feb6a5a594d6" />
+<ActInputValue Guid="8ada55d4-6506-48f8-94fe-c9a11284461c" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="bbee604b-3378-4165-b0bb-9c15f86c9c44" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ev-driver6@reimbursement-qa.trafineo.com" />
+<ActInputValue Guid="f714e5c2-51d3-471f-9119-6df637d936f4" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="f634c7d4-fb5a-4638-9961-bf2c638ee057" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="a71799bd-d5b5-4624-86c0-2019f56c0b79" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0b290fb6-87f2-4c5c-be31-8d90aa5d160d" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0022dc58-7da9-485f-934c-beae23f774e9" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="15175b0c-a934-4fbb-b788-19d555553d78" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="184b0014-d4f3-4aa6-8fef-ec8eb90f6f19" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="3810c50f-ec93-4ba6-9b3c-ac24034000ce" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="69aef47f-c3ec-4a2a-8fc6-941dfc3b6e62" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="caa0c568-0bcc-43e4-b32d-c4f35f5ddd28" ActivityName="Step 1" Guid="60f0adde-99ed-428d-807a-345ffd892766" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Reimbursement" Guid="df13391e-a43d-49cc-a0e5-8ee1eb7db9d1" LastExecutingAgentName="Reimbursement - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

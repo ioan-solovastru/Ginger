@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f10aed0d-6320-45e4-88b3-7d48e1270320" ItemType="ActBrowserElement" CreatedBy="ioan.solovastru" Created="202109290655" GingerVersion="3.9.0.0" Version="1" LastUpdateBy="ioan.solovastru" LastUpdate="202109290655" />
+<ActBrowserElement Active="True" Description="Browser Action" Guid="f10aed0d-6320-45e4-88b3-7d48e1270320" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="d6181e44-e55f-4619-8be8-5cfb89161e5d" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="dc77bf63-a0e0-4360-aa85-ecc3dbe4b010" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://aral-reimbursement-qa.trafineo.com/" />
+<ActInputValue Guid="6fbcc49b-0692-47ae-bf6f-a16a8fa96b2e" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="83d4c51a-d205-43d4-b645-1b91f3319a37" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="d9331977-50d8-47a1-a02d-2efba5674a0d" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="64c92e84-1de0-4c5f-9ae3-8d2be6219cce" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="186e23b0-84c5-4219-b917-2b1e548f6cc7" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement></GingerRepositoryItem>

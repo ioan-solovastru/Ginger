@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="46108773-dead-4f79-9ac5-3b8073c6a688" ItemType="ApplicationPOMModel" CreatedBy="ioan.solovastru" Created="202110110747" GingerVersion="3.9.0.0" Version="4" LastUpdateBy="ioan.solovastru" LastUpdate="202110130746" />
+<ApplicationPOMModel Guid="46108773-dead-4f79-9ac5-3b8073c6a688" LastUsedAgent="548b97bb-cd58-4508-8b61-09e166538c75" Name="Username field" PageLoadFlow="PageURL" PageURL="https://aral-reimbursement-qa.trafineo.com/" ParentGuid="00000000-0000-0000-0000-000000000000" TargetApplicationKey="Reimbursement~5fd952ac-f570-4bf4-a72f-ba26dbab73c6">
+<MappedUIElements>
+<ElementInfo ElementName="username" ElementTypeEnum="Unknown" Guid="d4bdcf3a-af8f-4adc-a2c3-feb6a5a594d6" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None">
+<Locators>
+<ElementLocator Active="True" Guid="adf91ac8-350f-492c-b5e3-1f0ad57175cf" LocateBy="ByName" LocateValue="username" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+</ElementInfo>
+<HTMLElementInfo ElementName="button Nederlands" ElementType="button" ElementTypeEnum="Button" Guid="ba80f4ec-1c44-4849-bb32-a2ceb03e8e70" Height="14" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="64" X="900" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[3]" Y="144">
+<Locators>
+<ElementLocator Active="True" Guid="1f2ea277-a592-47e0-b531-d499bc6622f6" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[3]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="5dfc6e37-a7f0-4e3b-b0e3-2a1c536ca60d" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//button[@type='button' and @class='jss9']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Guid="43cb573c-0066-443b-a237-b63dfa74fe01" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Nederlands']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Guid="81b49cca-2ce6-43fa-8584-d4428215c950" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Nederlands')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Guid="b49f37d7-ea25-484d-a74c-28d40575a75e" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()=' | ']//following::button" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Guid="0e64b51e-86da-49c2-88b6-4218d97491a9" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[3]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="481939dc-29c8-4489-9f4e-a3d9177033e7" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="8785ece2-e2b1-4162-8373-f75405f88a0c" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ControlProperty Guid="5a7cb6a6-06e1-4393-b672-fc63cda10127" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[3]" />
+<ControlProperty Guid="cd1d9c74-8c9f-4e2a-982b-2adfb03fe621" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[3]" />
+<ControlProperty Guid="fe2c1a36-70c1-4a50-abed-bacaf0df2ba4" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="14" />
+<ControlProperty Guid="8a8b0d9f-db3a-4e89-a72b-1c4ef8a31b6a" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="64" />
+<ControlProperty Guid="83d21547-fcf6-4362-8d4a-3030a483f669" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="900" />
+<ControlProperty Guid="c2d4c17d-22f7-4737-8c46-aea988318552" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="144" />
+<ControlProperty Guid="be95bdb8-b32c-4185-a326-a06653216007" Name="type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="fc277854-7ea5-4f0e-9bf0-cb7b9ffdd99a" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss9" />
+</Properties>
+</HTMLElementInfo>
+<ElementInfo ElementName="Username field" ElementTypeEnum="Unknown" Guid="cc65770e-2e98-4a27-8d1a-1b0819515e83" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None">
+<Properties>
+<ControlProperty Guid="e58d683e-e46c-43c1-9509-e13bff94085f" Name="Parent IFrame" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Properties>
+</ElementInfo>
+<HTMLElementInfo ElementName="label" ElementType="label" ElementTypeEnum="Label" Guid="f7979170-fdcd-4a45-b459-4aca61a2e1e9" Height="67" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="604" X="658" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]" Y="336">
+<Locators>
+<ElementLocator Active="True" Guid="9d535a24-57c9-4e79-b383-faf38f2d67e1" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="6a7cdc3d-3a5f-45cf-8f62-ec0eb5111b8e" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//label[@class='jss80']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Guid="e01490cf-148a-48d8-a9c1-f1c2c0453f09" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="ba323e23-6cb4-4157-822f-c6c289bebbf6" LocateBy="ByXPath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="bd2acedf-f557-4e32-bdb1-47396a2ac208" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="label" />
+<ControlProperty Guid="72edebdf-10d8-4645-8dba-77b4b2b38e6d" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Label" />
+<ControlProperty Guid="fc90a86e-9a98-426e-8946-796d63bb7de3" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]" />
+<ControlProperty Guid="bb99c86a-7116-4b7f-9045-1278f7b16480" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]" />
+<ControlProperty Guid="a4d00faf-a640-4923-858a-cfa8103e04d6" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="67" />
+<ControlProperty Guid="9229e2d4-f563-4c72-9b38-1ad12e9e8d2e" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="604" />
+<ControlProperty Guid="a5006a5e-a0c3-43e4-b94c-5a7dd3501cec" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="658" />
+<ControlProperty Guid="ae2b2162-a704-4040-825c-60eea7fcba33" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="336" />
+<ControlProperty Guid="aa3e49d6-146a-4f99-9a8b-03a2e0a233a2" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss80" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="label Password" ElementType="label" ElementTypeEnum="Label" Guid="dbcaef51-752f-4cad-858e-2f5cab818763" Height="67" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="604" X="658" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]" Y="440">
+<Locators>
+<ElementLocator Active="True" Guid="2a8f7b2c-57b1-4d0c-b7cb-917dde98e5dd" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="59ded75e-f588-4811-bcb8-d79372d3afad" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//label[@class='jss96']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="7150f086-b6f9-4635-92f7-e9d9c7130150" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="cc1d664b-b939-4e9e-b93b-b74ce9b3fb37" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="label" />
+<ControlProperty Guid="f901c05e-9d8a-4d0d-b568-4760575f9710" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Label" />
+<ControlProperty Guid="ff975b73-e428-4d29-8e86-1e1055428a06" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]" />
+<ControlProperty Guid="f1d97b29-b627-499d-8a77-106730558d4d" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]" />
+<ControlProperty Guid="e6d870c0-5842-4998-bfa4-419aaafe49b9" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="67" />
+<ControlProperty Guid="34b9a02b-18ba-4cf6-9ed5-3c21dcb85868" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="604" />
+<ControlProperty Guid="20b88e74-1369-4926-93c4-371561b9753a" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="658" />
+<ControlProperty Guid="2a6b3bae-768d-4a16-8a99-784ff5f86e1e" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="440" />
+<ControlProperty Guid="714cd508-d368-4c82-8933-63d6f4f04631" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss96" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="input password" ElementType="input" ElementTypeEnum="TextBox" Guid="5cd08785-4ceb-4e72-afdd-347314ce2e5b" Height="46" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="604" X="658" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]/input[1]" Y="474">
+<Locators>
+<ElementLocator Active="True" Guid="94bf8cab-eb33-44bd-adb0-48aaeb71d3af" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByName" LocateValue="password" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="96a4a80f-9209-4e8a-9a58-5dc0f4e0c884" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//input[@name='password']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="430c5d7b-564a-48dd-a63d-e8cdc059d891" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//input[@data-cy='passwordInput' and @type='password' and @class='jss92']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="77aaf40c-1d3f-411c-8c0a-ddc000f68578" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]/input[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="846890f5-802d-4063-ab77-2a89c9849a28" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="input" />
+<ControlProperty Guid="c7cdb832-41f4-4a6b-a374-5abc85bb25ff" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ControlProperty Guid="b3ffe379-7166-4851-bd70-7ad151cd3501" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[5]/div[1]/label[1]/input[1]" />
+<ControlProperty Guid="1306ef59-d40d-4472-b2d1-e57204d49472" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//input[@name='password']" />
+<ControlProperty Guid="47db73af-b4d7-4278-977f-f1fde98cd850" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="46" />
+<ControlProperty Guid="5e9fcc68-89b3-41be-83a0-42b37e78ffcc" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="604" />
+<ControlProperty Guid="2e42fb99-ff6e-4343-85ad-a90baa595d7b" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="658" />
+<ControlProperty Guid="dcac159b-dff6-46b0-9ebc-a654e5c5e193" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="474" />
+<ControlProperty Guid="4f9b334e-21ca-4429-9258-76f5fc75f7f1" Name="data-cy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="passwordInput" />
+<ControlProperty Guid="2b0d62fb-9806-4bf1-aa5a-e157305d3aff" Name="type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="password" />
+<ControlProperty Guid="acdce0a2-00ac-4782-82b2-bdc983558fc0" Name="name" ParentGuid="00000000-0000-0000-0000-000000000000" Value="password" />
+<ControlProperty Guid="63f74a6b-b84a-4d4c-ab02-da7d8be0c917" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss92" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="button Enter" ElementType="button" ElementTypeEnum="Button" Guid="80f72b23-4366-4065-9fc3-973f43bbb062" Height="38" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="196" X="862" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" Y="568">
+<Locators>
+<ElementLocator Active="True" Guid="83533578-c85e-44ec-ad07-93e52a1a7e57" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="5d46bc41-fbd8-4f5b-95a7-61662efb7a82" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//button[@class='MuiButtonBase-root jss107 jss113 jss113  Mui-disabled' and @tabindex='-1' and @type='button' and @disabled='' and @data-cy='enterButton']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="88332ff1-eabc-4fac-aaf3-a5f7c1d65d32" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Enter']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="39f642d2-19bd-4765-a984-ac897fa43700" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Enter')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="8fb0c3ce-2505-41ad-8d02-9c08a089b687" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="428d1156-138c-4ac9-9220-2044f054c38b" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="2ca3f9ca-004d-4d27-abce-dc37e5c12afc" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ControlProperty Guid="e7aff3cf-a460-433c-b4ca-78844df67e26" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" />
+<ControlProperty Guid="f0ff34c5-aa79-4378-a9e3-5ad679e17c1c" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" />
+<ControlProperty Guid="e1813376-6185-4da1-a81f-1f9c8c716198" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="38" />
+<ControlProperty Guid="194fbdcf-03f2-4608-af91-6bbffd8be624" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="196" />
+<ControlProperty Guid="d5e4d046-f264-4ace-85b1-77cb7623d21a" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="862" />
+<ControlProperty Guid="b6d34099-98b7-4045-a618-1bac69f86d02" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="568" />
+<ControlProperty Guid="9d1e5ebc-004f-463a-ae77-5840159d0f22" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="MuiButtonBase-root jss107 jss113 jss113  Mui-disabled" />
+<ControlProperty Guid="8bf8b29f-3ab5-44ab-aa2c-40fc5269b07b" Name="tabindex" ParentGuid="00000000-0000-0000-0000-000000000000" Value="-1" />
+<ControlProperty Guid="a262b61a-d602-448a-9d79-371c0e663b32" Name="type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="80415677-fd97-47e8-999b-702eac29ed75" Name="disabled" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ControlProperty Guid="dc89afe5-601d-4aef-9a56-cb461b976a8d" Name="data-cy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="enterButton" />
+<ControlProperty Guid="4a0d399c-06ec-4911-86a5-51163cfeb26c" Name="style" ParentGuid="00000000-0000-0000-0000-000000000000" Value="font-size: 12px;" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="a" ElementType="a" ElementTypeEnum="HyperLink" Guid="a5b0c732-5cb8-4953-b418-c3719e0af3f6" Height="14" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="134" X="893" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[10]/a[1]" Y="617">
+<Locators>
+<ElementLocator Active="True" Guid="3a133acc-49c2-4c86-a2a2-0baf97336835" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[10]/a[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="d0e42473-b4d9-430a-9f3e-8fa8986fe8f7" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//a[@class='jss18' and @href='/forgotPassword']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="533762c9-bbcb-44e5-b4fd-212d5418ed4c" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Forgot your password?']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="b0a5bce1-e985-4765-91a4-c8983e78c7b6" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Forgot your password?')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="acd5109e-6c43-434c-98fd-b699595cdb21" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[10]/a[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="3411d4c1-b609-45e6-ad2b-1dd7d81d92f3" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+<ControlProperty Guid="9358be00-f774-4c71-8cb4-871afd552a28" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ControlProperty Guid="041eaaae-f881-4b9b-8c7a-4699baf14448" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[10]/a[1]" />
+<ControlProperty Guid="850f7c1b-c481-4da5-a7cc-f78b870192e1" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[10]/a[1]" />
+<ControlProperty Guid="e62d33fe-7665-4882-a5c2-dc092b56ef68" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="14" />
+<ControlProperty Guid="b7f223fd-d280-4342-8682-451a70043a78" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="134" />
+<ControlProperty Guid="1420fdb6-25ae-48de-9172-62d23780008e" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="893" />
+<ControlProperty Guid="d730007c-c003-44d7-a3bb-2f068fad71e1" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="617" />
+<ControlProperty Guid="6d27a0d4-3540-45e6-bb47-e71e7e9db997" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss18" />
+<ControlProperty Guid="60dae100-1f45-49cd-90ef-2a6cccda22d0" Name="href" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/forgotPassword" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="a Imprint" ElementType="a" ElementTypeEnum="HyperLink" Guid="13b5a3cd-db13-465e-ab77-6f6d2bc00552" Height="40" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="47" X="230" XPath="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]" Y="884">
+<Locators>
+<ElementLocator Active="True" Guid="02fc88dc-927e-4154-9042-ecd482ce16c7" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="408487a2-3c27-4633-81f4-a5e2235dea33" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//a[@class='jss71' and @href='/imprint']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="4f9d3923-0aca-4094-80a4-195bb93dd5dc" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Imprint']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="a4ccacbb-79ae-4440-a3a5-97a057c79420" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Imprint')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="ba0a12fc-8e82-4975-b7db-df2e26bde8ff" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="66dddbe1-38b4-4d59-a72b-8dc590a685f3" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+<ControlProperty Guid="74526efb-ca37-49ba-9775-c287e61ed643" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ControlProperty Guid="ce0227a2-f944-4a1b-8c8d-3e61e8018085" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]" />
+<ControlProperty Guid="02006646-c12f-40ce-ad8e-b96735b3c1a1" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]" />
+<ControlProperty Guid="a44e8a2c-017e-4f9a-8a40-61c9d8fc4aa8" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="40" />
+<ControlProperty Guid="5afb1e97-4b24-499f-84f0-c8a306d94388" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="47" />
+<ControlProperty Guid="d771d01b-b265-4bbe-92aa-72eb11de0773" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="230" />
+<ControlProperty Guid="f64369a9-a028-4b92-9bcc-95e090fc70a3" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="884" />
+<ControlProperty Guid="3a5ae379-a9fc-45b8-8e20-e82c6b93cb75" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss71" />
+<ControlProperty Guid="76a0f2ec-0450-4371-bf0a-f6db670f02b5" Name="href" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/imprint" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="a" ElementType="a" ElementTypeEnum="HyperLink" Guid="59f67c67-b49c-4925-8eff-d85275b4870c" Height="40" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="146" X="277" XPath="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[2]" Y="884">
+<Locators>
+<ElementLocator Active="True" Guid="92e226c3-6828-415f-9b8f-d03b29ff23c9" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[2]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="78779d4a-1450-4fb7-ab05-26e639f424b2" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//a[@class='jss71' and @href='/data-privacy-statement']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="4de2ec6c-a42e-4f90-8482-3a7e229a0593" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Data Privacy Statement']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="cd3c4dfa-6dc3-441d-9647-d0b9d2389eed" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Data Privacy Statement')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="51758566-8f9c-48e8-9235-076887f0d013" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Imprint']//following::a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="09141fcb-9d29-4e24-87a5-1921eb56e063" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[2]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="4a38ee91-0260-49c6-b841-a73314c97029" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+<ControlProperty Guid="e3fa6593-06e0-4136-86a6-58a38d1e4164" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ControlProperty Guid="c27cc451-fa71-402f-88d8-70d6514fc513" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[2]" />
+<ControlProperty Guid="fd32388b-9ed3-42bb-b3bd-d3a4debe93ee" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[2]" />
+<ControlProperty Guid="8a780830-48db-45f5-b699-4c7177686af9" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="40" />
+<ControlProperty Guid="f5001015-a880-48b2-83a1-feafc96c4c11" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="146" />
+<ControlProperty Guid="5b3a37b8-94b0-480e-8796-30b7c1750b28" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="277" />
+<ControlProperty Guid="054dae67-2752-41cc-a889-a1956bf3bcbb" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="884" />
+<ControlProperty Guid="679ea749-de3a-4725-ba4d-a5da26af3343" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss71" />
+<ControlProperty Guid="d58ce147-75ec-4000-9a1f-2d7f101644bb" Name="href" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/data-privacy-statement" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="a" ElementType="a" ElementTypeEnum="HyperLink" Guid="84741177-501c-4c15-98e6-4c418f62ef6d" Height="40" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="124" X="423" XPath="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[3]" Y="884">
+<Locators>
+<ElementLocator Active="True" Guid="37ceb51f-af12-4da0-8a0b-94141a5aa9b7" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[3]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="e50509e0-d869-40d6-bb88-7582fe26d1ca" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//a[@class='jss71' and @href='/terms-and-conditions']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="759324e4-dc12-484b-8eab-0f11e6040d99" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Data Privacy Statement']//following::a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="c796e583-cee8-4580-a61f-30963dcce314" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[3]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="5b16aa4b-7f2a-4dc8-9589-6c23cfa2e8e9" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+<ControlProperty Guid="c63f730e-0e26-411d-b73a-c339bb18c1f0" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ControlProperty Guid="5a07223f-b3f0-4794-b56b-b80c51034473" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[3]" />
+<ControlProperty Guid="4c426447-79f2-49a5-963b-1f91ae6a9023" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[3]" />
+<ControlProperty Guid="3f0dd080-d082-4a5a-911c-bc41194134e7" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="40" />
+<ControlProperty Guid="5d4561b8-775e-4a7c-ab4d-efb31d1547ef" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="124" />
+<ControlProperty Guid="d06c4970-c69c-4748-bef1-2ac0d3ec368f" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="423" />
+<ControlProperty Guid="12c8b661-d78d-45d8-bc7c-7e5c8fb0fb2f" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="884" />
+<ControlProperty Guid="e234dd91-aad9-4201-ad26-a527413dbbd1" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss71" />
+<ControlProperty Guid="230e28ce-1616-45da-afd7-62f67f0299cd" Name="href" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/terms-and-conditions" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="a FAQ" ElementType="a" ElementTypeEnum="HyperLink" Guid="2fb66b2f-a558-49fd-b453-09707a0fe698" Height="40" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="44" X="337" XPath="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[4]" Y="827">
+<Locators>
+<ElementLocator Active="True" Guid="ce763c4c-790a-4823-b2dd-9567616d1bc5" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[4]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="e487fde9-4a2e-4725-8778-fb6e24f55e94" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//a[@class='jss71' and @href='/faq']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="548758e8-2851-4a97-af82-d508aaf505ea" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='FAQ']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="c3a3dc85-c0b6-45cc-be7d-245842ffe29a" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'FAQ')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="1cd10120-ab77-486f-ba9b-386fca7fabe7" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[4]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="7f72a53e-434c-4e76-afa3-6ca9f0dda425" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+<ControlProperty Guid="d2b3b3a0-9739-4639-9696-68d19a618ff5" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ControlProperty Guid="43942295-cf32-4c21-aed4-440f739dd962" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/a[4]" />
+<ControlProperty Guid="d38cae89-5863-49cc-b95b-c6f77366da72" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[4]/div[1]/div[1]/div[1]/a[4]" />
+<ControlProperty Guid="88c92d76-01be-4ce6-89a2-a9628d8b0aa8" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="40" />
+<ControlProperty Guid="a06dfab4-febb-4583-a6e9-ad090bcac9ba" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="44" />
+<ControlProperty Guid="e2e16d3b-7159-4464-ad69-d450014c0f8d" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="337" />
+<ControlProperty Guid="df4cbad2-1d92-4938-acaf-121860724a62" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="827" />
+<ControlProperty Guid="2567277d-191b-4432-b57e-f6fa55eb3a03" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss71" />
+<ControlProperty Guid="1fac399d-6a37-4b61-a4d3-0b5bc9ea4456" Name="href" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/faq" />
+</Properties>
+</HTMLElementInfo>
+<HTMLElementInfo ElementName="button Deutsch" ElementType="button" ElementTypeEnum="Button" Guid="947b7ac8-fc18-403b-aad9-26a4cfb5f4c4" Height="14" IsAutoLearned="True" ParentGuid="46108773-dead-4f79-9ac5-3b8073c6a688" SelfHealingInfo="None" Width="46" X="825" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[2]" Y="144">
+<Locators>
+<ElementLocator Active="True" Guid="6edb05f8-da4e-4123-b5ef-67fe1566b91f" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//div[@id='root']/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[2]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="2ce9553a-48ae-43b2-8a18-e55a1de18163" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//button[@type='button' and @class='jss9']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="436384cb-fc8a-4119-b77d-beea9e7b631f" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()='Deutsch']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="92d617a6-b7b3-42e9-a393-aa846eb5c249" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[contains(text(),'Deutsch')]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="b6a24f7f-1db4-48c0-b62b-df4d003f7f88" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//*[text()=' | ']//following::button" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="f63724c8-21ed-420b-b8b9-348a55164708" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[2]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="4f32cf89-6249-4995-a7e9-240015c93023" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="ea3934dc-d3d7-4342-8e5a-36ce57230a9b" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ControlProperty Guid="36832cd2-c00d-4c86-bc3b-b49b6bfe6b52" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[2]" />
+<ControlProperty Guid="f2ef39de-2094-4a3b-a6f1-917a519ce18c" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//div[@id='root']/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[2]" />
+<ControlProperty Guid="8038f05e-5a28-448d-9716-bf115f2b351a" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="14" />
+<ControlProperty Guid="6382c7ab-1404-46e6-98fb-04dcdcee8fcb" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="46" />
+<ControlProperty Guid="73186371-96b1-4c41-b3e1-0c96c9f7d333" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="825" />
+<ControlProperty Guid="6b233240-b3ba-4797-a9c0-4f0528e4489e" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="144" />
+<ControlProperty Guid="68117f67-8789-4315-876c-eecdaa1458f0" Name="type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="button" />
+<ControlProperty Guid="4ff6e9eb-0940-4218-b77e-296812f2efab" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss9" />
+</Properties>
+</HTMLElementInfo>
+</MappedUIElements>
+
+<UnMappedUIElements>
+<ElementInfo ElementTypeEnum="Unknown" Guid="78b23794-cdad-4d00-88a2-8e101426af39" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" />
+<HTMLElementInfo ElementName="Text Box" ElementType="INPUT" ElementTypeEnum="TextBox" Guid="2d1eb91c-804e-446b-bada-a651ad776fa8" Height="46" IsAutoLearned="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None" Width="604" X="658" XPath="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]/input[1]" Y="370">
+<Locators>
+<ElementLocator Active="True" Guid="377887bd-0a0c-49bc-90c6-d1e2025d17e4" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByName" LocateValue="username" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="8ddf6902-1329-4540-9198-0778156aae47" Help="Very Recommended (usually unique)" IsAutoLearned="True" LocateBy="ByRelXPath" LocateValue="//input[@name='username']" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ElementLocator Active="True" Guid="5eb607e8-7fc0-4840-90fb-f7a09a852d1b" Help="Recommended (sensitive to page design changes)" IsAutoLearned="True" LocateBy="ByXPath" LocateValue="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]/input[1]" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Locators>
+
+<Properties>
+<ControlProperty Guid="645f90b0-a5fb-4fcd-970d-d02e98d39933" Name="Platform Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="INPUT" />
+<ControlProperty Guid="8a851b14-7744-46f0-8f2f-2548461da4d0" Name="Element Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ControlProperty Guid="d7b312be-df9f-4f81-911f-251a10ff35e3" Name="XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]/input[1]" />
+<ControlProperty Guid="3f04f3b2-375c-488a-a956-a0710b876966" Name="Relative XPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//input[@name='username']" />
+<ControlProperty Guid="dd2dab8a-0bfb-450a-a17d-5f079443844e" Name="Height" ParentGuid="00000000-0000-0000-0000-000000000000" Value="46" />
+<ControlProperty Guid="e60ddcf6-60d1-4022-a827-9b8642444d06" Name="Width" ParentGuid="00000000-0000-0000-0000-000000000000" Value="604" />
+<ControlProperty Guid="3e361761-d5fc-4314-9b8a-a0d4169d3f10" Name="X" ParentGuid="00000000-0000-0000-0000-000000000000" Value="658" />
+<ControlProperty Guid="f91b7166-4024-4a9d-b5b1-6a3ba0062b07" Name="Y" ParentGuid="00000000-0000-0000-0000-000000000000" Value="370" />
+<ControlProperty Guid="fe4155a7-28e3-4aa8-9ca4-50bcdb3eb26f" Name="class" ParentGuid="00000000-0000-0000-0000-000000000000" Value="jss29" />
+<ControlProperty Guid="93416041-117f-4888-801d-bc0a0ef90dc6" Name="data-cy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="usernameInput" />
+<ControlProperty Guid="9209662f-e437-46cd-b256-f2ac2b39ebfa" Name="name" ParentGuid="00000000-0000-0000-0000-000000000000" Value="username" />
+</Properties>
+</HTMLElementInfo>
+<ElementInfo ElementTypeEnum="Unknown" Guid="9ee0fdf5-f8d9-4db3-9bd4-14f50633ff32" ParentGuid="00000000-0000-0000-0000-000000000000" SelfHealingInfo="None">
+<Properties>
+<ControlProperty Guid="af7756f3-631c-4367-a5b0-a0d51f694f42" Name="Parent IFrame" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Properties>
+</ElementInfo>
+</UnMappedUIElements>
+</ApplicationPOMModel></GingerRepositoryItem>
